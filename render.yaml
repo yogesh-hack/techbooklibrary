@@ -6,6 +6,6 @@ services:
     branch: main
     buildCommand: dotnet build
     startCommand: dotnet TechBookLibrary.dll
-    env: 
+    envVars: 
       - key: ASPNETCORE_ENVIRONMENT
         value: Production

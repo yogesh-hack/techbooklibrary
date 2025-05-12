@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: techbooklibrary
+    runtime: dotnet
+    repo: https://github.com/yogesh-hack/techbooklibrary
+    branch: main
+    buildCommand: dotnet build
+    startCommand: dotnet TechBookLibrary.dll
+    env: 
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production

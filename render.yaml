@@ -5,6 +5,6 @@ services:
     branch: main
     buildCommand: dotnet publish -c Release -o out
     startCommand: dotnet out/TechBookLibrary.dll
-    envVars: 
+    envVars:
       - key: ASPNETCORE_ENVIRONMENT
         value: Production

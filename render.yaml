@@ -1,7 +1,6 @@
 services:
   - type: web
     name: techbooklibrary
-    runtime: dotnet
     repo: https://github.com/yogesh-hack/techbooklibrary
     branch: main
     buildCommand: dotnet publish -c Release -o out

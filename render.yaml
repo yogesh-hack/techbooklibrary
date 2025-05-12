@@ -4,7 +4,7 @@ services:
     repo: https://github.com/yogesh-hack/techbooklibrary
     branch: main
     buildCommand: dotnet publish -c Release -o out
-    startCommand: dotnet out/TechBookLibrary.dll
+    startCommand: dotnet out/techbooklibrary.dll
     envVars:
       - key: ASPNETCORE_ENVIRONMENT
         value: Production

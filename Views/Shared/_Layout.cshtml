@@ -1,0 +1,234 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - bookstoreapp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/bookstoreapp.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header class="position-sticky" style="z-index:999; top:10px">
+        <nav class="navbar navbar-expand-lg shadow-lg border-1 rounded-pill mt-3 mx-3 px-4 py-2" style="backdrop-filter:blur(5px)">
+            <div class="container-fluid">
+                <!-- Brand -->
+                <a class="navbar-brand text-dark fw-semibold text-uppercase" href="#">TechBookLibrary</a>
+
+                <!-- Toggler -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-warning fw-semibold" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#About">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Book" asp-action="Index">Book Store</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#Contact">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- Get Started button -->
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#addBookModal" class="btn btn-warning rounded-pill fw-semibold">Add Book</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <div class="modal fade" id="addBookModal" tabindex="-1" aria-labelledby="addBookModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content shadow">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title" id="addBookModalLabel">Add New Book</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Left: Book Image -->
+                        <div class="col-md-5 d-flex align-items-center justify-content-center border-end">
+                            <img src="https://themewagon.github.io/book/img/header-img.png" alt="Book Cover" class="img-fluid rounded shadow">
+                        </div>
+
+                        <!-- Right: Form -->
+                        <div class="col-md-7">
+                            <form id="addBookForm" class="needs-validation" novalidate>
+                                <div class="row g-4">
+                                    <div class="col-12">
+                                        <h4 class="mb-3">Book Information</h4>
+                                        <div class="card border-0 shadow-sm p-3">
+                                            <div class="row g-3">
+                                                <div class="col-12">
+                                                    <label for="bookTitle" class="form-label">Book Title <span class="text-danger">*</span></label>
+                                                    <input type="text" class="form-control form-control-lg" id="bookTitle" name="Title" required>
+                                                    <div class="invalid-feedback">Please provide a book title.</div>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <label for="bookAuthor" class="form-label">Author <span class="text-danger">*</span></label>
+                                                    <input type="text" class="form-control" id="bookAuthor" name="Author" required>
+                                                    <div class="invalid-feedback">Please provide the author's name.</div>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <label for="bookPrice" class="form-label">Price <span class="text-danger">*</span></label>
+                                                    <div class="input-group">
+                                                        <span class="input-group-text">$</span>
+                                                        <input type="number" class="form-control" id="bookPrice" name="Price" step="0.01" min="0" required>
+                                                    </div>
+                                                    <div class="invalid-feedback">Please provide a valid price.</div>
+                                                </div>
+
+                                                <div class="col-12">
+                                                    <label for="bookDescription" class="form-label">Description</label>
+                                                    <textarea class="form-control" id="bookDescription" name="Description" rows="3" style="min-height: 100px;"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <h4 class="mb-3">Upload Files</h4>
+                                        <div class="card border-0 shadow-sm p-3">
+                                            <div class="row g-3">
+                                                <div class="col-md-6">
+                                                    <label for="bookCoverImage" class="form-label">Cover Image</label>
+                                                    <div class="file-upload-wrapper">
+                                                        <input type="file" class="form-control" id="bookCoverImage" name="CoverImage" accept="image/*">
+                                                        <small class="text-muted">Recommended size: 600x900 pixels</small>
+                                                        <div class="mt-2 image-preview d-none">
+                                                            <img id="coverPreview" src="#" alt="Cover preview" class="img-thumbnail" style="max-height: 150px; display: none;">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <label for="bookPdf" class="form-label">PDF File</label>
+                                                    <div class="file-upload-wrapper">
+                                                        <input type="file" class="form-control" id="bookPdf" name="Pdf" accept=".pdf">
+                                                        <small class="text-muted">Max file size: 10MB</small>
+                                                        <div class="mt-2 file-info d-none">
+                                                            <span id="pdfFileName" class="badge bg-light text-dark"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 mt-4">
+                                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                            <button type="reset" class="btn btn-outline-secondary me-md-2">Reset</button>
+                                            <button type="submit" class="btn btn-primary px-4">
+                                                <i class="bi bi-save me-2"></i>Save Book
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="border-top footer text-muted bg-light">
+        <div class="container">
+            &copy; 2025 - TechBookLibrary - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a0c18baff3.js" crossorigin="anonymous"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        document.getElementById('bookCoverImage').addEventListener('change', function(e) {
+            const preview = document.getElementById('coverPreview');
+            const file = e.target.files[0];
+
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    preview.src = e.target.result;
+                    preview.style.display = 'block';
+                    preview.parentElement.classList.remove('d-none');
+                }
+                reader.readAsDataURL(file);
+            }
+        });
+
+        // PDF file name display
+        document.getElementById('bookPdf').addEventListener('change', function(e) {
+            const fileNameDisplay = document.getElementById('pdfFileName');
+            const file = e.target.files[0];
+
+            if (file) {
+                fileNameDisplay.textContent = file.name;
+                fileNameDisplay.parentElement.classList.remove('d-none');
+            }
+        });
+
+        // Form validation
+        (function() {
+            'use strict';
+            const forms = document.querySelectorAll('.needs-validation');
+
+            Array.from(forms).forEach(function(form) {
+                form.addEventListener('submit', function(event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        })();
+
+        document.getElementById('addBookForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const form = event.target;
+            const formData = new FormData(form);
+
+            fetch('/Book/Create', {
+                method: 'POST',
+                body: formData
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        alert("Book added successfully!");
+                        location.reload();
+                    } else {
+                        const errorList = (data.errors || []).join('\n') || 'Unknown error';
+                        alert("Error adding book:\n" + errorList);
+                        console.log(data.errors);
+                    }
+                })
+                .catch(error => {
+                    alert("An error occurred.");
+                    console.error(error);
+                });
+        });
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

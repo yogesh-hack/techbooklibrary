@@ -1,0 +1,124 @@
+﻿@model bookstoreapp.Models.BookDetailsViewModel
+
+@{
+    ViewData["Title"] = "Book Details";
+}
+
+<div class="container py-5">
+    <!-- Back button and header -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <a href="@Url.Action("Index", "Book")" class="btn btn-outline-secondary">
+            <i class="fa-solid fa-arrow-left"></i> Back to List
+        </a>
+        <h1 class="mb-0">Book Details</h1>
+        <div></div> <!-- Empty div for spacing -->
+    </div>
+
+    <!-- Main book details -->
+    <div class="card border-0 shadow-lg mb-5">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="@Model?.SelectedBook?.CoverImageUrl" class="img-fluid rounded-start" alt="alt=" @Model?.SelectedBook?.Title" style="height: 100%; object-fit: cover;">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body p-4 p-lg-5">
+                    <h2 class="card-title">@Model?.SelectedBook?.Title</h2>
+                    <h4 class="text-muted mb-4">by @Model?.SelectedBook?.Author</h4>
+
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="text-warning me-2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <span class="text-muted">(1,987 reviews)</span>
+                    </div>
+
+                    <h3 class="text-primary mb-4">$@Model?.SelectedBook?.Price.ToString("0.00")</h3>
+
+                    <p class="card-text mb-4">@Model?.SelectedBook?.Description</p>
+
+                    <div class="d-flex gap-3">
+                        <a asp-controller="Book" asp-action="Read" asp-route-id="@Model?.SelectedBook?.Id" class="btn btn-primary btn-lg px-4">
+                            <i class="fa-solid fa-book"></i> Read Now
+                        </a>
+                        <button class="btn btn-outline-secondary btn-lg px-4">
+                            <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Related books section -->
+    <h3 class="mb-4">More Books</h3>
+    <div class="container-fluid px-4 py-4">
+        <h3 class="mb-4 ps-2">You May Also Like</h3>
+        <div class="row flex-nowrap pb-3 scrollbar-hidden" style="min-height: 400px;overflow-y:auto">
+                @foreach (var book in (Model?.AllBooks ?? new List<Book>()).Where(b => b.Id != Model?.SelectedBook?.Id))
+                {
+                <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-3 col-xxl-2 px-2">
+                    <div class="card h-100 border-0 shadow-sm hover-scale transition-all">
+                        <a asp-action="Details" asp-route-id="@book.Id" class="text-decoration-none pointer-event">
+                            <div class="position-relative overflow-hidden" style="height: 250px;">
+                                <img src="@book.CoverImageUrl" class="card-img-top h-100 w-100 object-fit-cover" alt="@book.Title">
+                                <div class="position-absolute top-0 end-0 m-2">
+                                    <button class="btn btn-light btn-sm rounded-circle shadow-sm">
+                                        <i class="fa-solid fa-heart text-danger"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-truncate mb-1">@book.Title</h5>
+                                <p class="text-muted small mb-2">by @book.Author</p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <div class="text-warning me-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <small class="text-muted">(1,234)</small>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h5 class="text-primary mb-0">$@book.Price.ToString("0.00")</h5>
+                                    <button class="btn btn-sm btn-outline-primary">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                }
+        </div>
+    </div>
+
+    <style>
+        .hover-scale {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+            .hover-scale:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+            }
+
+        .scrollbar-hidden::-webkit-scrollbar {
+            display: none;
+        }
+
+        .scrollbar-hidden {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        .object-fit-cover {
+            object-fit: cover;
+        }
+    </style>
+</div>

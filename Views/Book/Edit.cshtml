@@ -1,0 +1,206 @@
+﻿@model bookstoreapp.Models.Book
+
+@{
+    ViewData["Title"] = "Edit Book";
+}
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-12">
+            <div class="card border-0 shadow-lg">
+                <div class="card-header bg-primary text-white py-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h2 class="h4 mb-0">Edit Book</h2>
+                        <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-light btn-sm">
+                            <i class="bi bi-arrow-left"></i> Back to Details
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card-body p-4 p-md-5">
+                    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+                        <input type="hidden" asp-for="Id" />
+
+                        <div class="row g-4">
+                            <!-- Left Column -->
+                            <div class="col-md-6">
+                                <div class="mb-4">
+                                    <label asp-for="Title" class="form-label fw-bold">Title</label>
+                                    <input asp-for="Title" class="form-control form-control-lg" />
+                                    <span asp-validation-for="Title" class="text-danger small"></span>
+                                </div>
+
+                                <div class="mb-4">
+                                    <label asp-for="Author" class="form-label fw-bold">Author</label>
+                                    <input asp-for="Author" class="form-control" />
+                                    <span asp-validation-for="Author" class="text-danger small"></span>
+                                </div>
+
+                                <div class="mb-4">
+                                    <label asp-for="Price" class="form-label fw-bold">Price</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text">$</span>
+                                        <input asp-for="Price" type="number" step="0.01" class="form-control" />
+                                    </div>
+                                    <span asp-validation-for="Price" class="text-danger small"></span>
+                                </div>
+
+                                <div class="mb-4">
+                                    <label asp-for="Description" class="form-label fw-bold">Description</label>
+                                    <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+                                    <span asp-validation-for="Description" class="text-danger small"></span>
+                                </div>
+                            </div>
+
+                            <!-- Right Column -->
+                            <div class="col-md-6">
+                                <!-- Cover Image Upload -->
+                                <div class="mb-4">
+                                    <label class="form-label fw-bold">Cover Image</label>
+                                    <div class="border rounded p-3 text-center">
+                                        <!-- Current Image Preview -->
+                                        <div id="currentCoverPreview" class="mb-3">
+                                            <img src="@Model.CoverImageUrl" alt="Current cover" class="img-thumbnail mb-2" style="max-height: 200px;">
+                                            <p class="small text-muted">Current Cover</p>
+                                        </div>
+
+                                        <!-- File Upload -->
+                                        <div class="file-upload-area border-dashed rounded p-4">
+                                            <input type="file" class="form-control d-none" id="coverImageUpload" name="CoverImageFile" accept="image/*">
+                                            <label for="coverImageUpload" class="btn btn-outline-primary mb-2">
+                                                <i class="bi bi-upload me-2"></i>Upload New Cover
+                                            </label>
+                                            <p class="small text-muted mb-0">JPG, PNG (Max 5MB)</p>
+
+                                            <!-- New Image Preview -->
+                                            <div id="newCoverPreview" class="mt-3 d-none">
+                                                <img id="coverPreview" src="#" alt="Preview" class="img-thumbnail" style="max-height: 150px; display: none;">
+                                                <button type="button" class="btn btn-sm btn-outline-danger mt-2" onclick="clearCoverUpload()">
+                                                    <i class="bi bi-x-circle me-1"></i>Remove
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- PDF Upload -->
+                                <div class="mb-4">
+                                    <label class="form-label fw-bold">PDF File</label>
+                                    <div class="border rounded p-3">
+                                        <!-- Current PDF Info -->
+                                        @if (!string.IsNullOrEmpty(Model.PdfUrl))
+                                        {
+                                            <div class="mb-3">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="bi bi-file-earmark-pdf fs-3 text-danger me-2"></i>
+                                                    <div>
+                                                        <p class="mb-0 small">Current PDF: @System.IO.Path.GetFileName(Model.PdfUrl)</p>
+                                                        <a href="@Model.PdfUrl" target="_blank" class="small">View PDF</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+
+                                        <!-- File Upload -->
+                                        <div class="file-upload-area border-dashed rounded p-3">
+                                            <input type="file" class="form-control d-none" id="pdfUpload" name="PdfFile" accept=".pdf">
+                                            <label for="pdfUpload" class="btn btn-outline-secondary mb-2">
+                                                <i class="bi bi-upload me-2"></i>Upload New PDF
+                                            </label>
+                                            <p class="small text-muted mb-0">PDF only (Max 20MB)</p>
+
+                                            <!-- New PDF Info -->
+                                            <div id="newPdfInfo" class="mt-3 d-none">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="bi bi-file-earmark-pdf fs-4 text-danger me-2"></i>
+                                                    <div>
+                                                        <p id="pdfFileName" class="mb-0 small"></p>
+                                                        <p class="small text-muted" id="pdfFileSize"></p>
+                                                    </div>
+                                                </div>
+                                                <button type="button" class="btn btn-sm btn-outline-danger mt-2" onclick="clearPdfUpload()">
+                                                    <i class="bi bi-x-circle me-1"></i>Remove
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-end mt-4 gap-3">
+                            <button type="reset" class="btn btn-outline-secondary px-4">
+                                <i class="bi bi-arrow-counterclockwise me-2"></i>Reset
+                            </button>
+                            <button type="submit" class="btn btn-primary px-4">
+                                <i class="bi bi-save me-2"></i>Update Book
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+
+@section Scripts {
+    <script>
+        // Cover Image Preview
+        document.getElementById('coverImageUpload').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const preview = document.getElementById('coverPreview');
+                    preview.src = e.target.result;
+                    preview.style.display = 'block';
+
+                    const previewContainer = document.getElementById('newCoverPreview');
+                    previewContainer.classList.remove('d-none');
+
+                    // Hide current cover preview
+                    document.getElementById('currentCoverPreview').classList.add('d-none');
+                }
+                reader.readAsDataURL(file);
+            }
+        });
+
+        function clearCoverUpload() {
+            document.getElementById('coverImageUpload').value = '';
+            document.getElementById('newCoverPreview').classList.add('d-none');
+            document.getElementById('currentCoverPreview').classList.remove('d-none');
+            document.getElementById('coverPreview').style.display = 'none';
+        }
+
+        // PDF File Info
+        document.getElementById('pdfUpload').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                document.getElementById('pdfFileName').textContent = file.name;
+                document.getElementById('pdfFileSize').textContent = formatFileSize(file.size);
+                document.getElementById('newPdfInfo').classList.remove('d-none');
+            }
+        });
+
+        function clearPdfUpload() {
+            document.getElementById('pdfUpload').value = '';
+            document.getElementById('newPdfInfo').classList.add('d-none');
+        }
+
+        function formatFileSize(bytes) {
+            if (bytes === 0) return '0 Bytes';
+            const k = 1024;
+            const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+            const i = Math.floor(Math.log(bytes) / Math.log(k));
+            return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+        }
+    </script>
+}

@@ -10,7 +10,7 @@ namespace bookstoreapp.Models
             var optionsBuilder = new DbContextOptionsBuilder<BookstoreContext>();
 
             // Use the same connection string as in appsettings.json
-            optionsBuilder.UseSqlServer("Data Source=103.120.176.21;Integrated Security=False;Database=tridente_kamini;User ID=tridente_kamini;Password=kamini@123;Connect Timeout=15;Encrypt=False;Packet Size=4096;");
+            optionsBuilder.UseSqlServer("yourconneciotn_string");
 
             return new BookstoreContext(optionsBuilder.Options);
         }

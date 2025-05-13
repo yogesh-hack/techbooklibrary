@@ -1,6 +1,6 @@
 # 📚 TechBookLibrary
 
-**TechBookLibrary** is a modern ASP.NET Core MVC Bookstore application that allows users to **browse, read, and download books online**. It features file uploads, form validation, and a clean UI for managing books.
+**TechBookLibrary** is a modern ASP.NET Core MVC Bookstore application that allows users to **browse, Add, read books online**. It features file uploads, form validation, and a clean UI for managing books.
 ## Demo
 
 
@@ -15,7 +15,7 @@ https://github.com/user-attachments/assets/bf1ad9e7-3822-4e3f-9812-d4bd6d2e7561
 - 📖 Browse a catalog of books with cover images, titles, authors, and prices.
 - 📥 Upload books with PDF files and cover images.
 - 📝 Edit and delete book records.
-- 📚 Read books online or download them.
+- 📚 Read books online.
 - 🎨 Responsive design using Bootstrap 5.
 - 🧪 Uses demo/static data (no actual database required).
 

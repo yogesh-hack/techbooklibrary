@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus\\source\\repos\\bookstoreapp\\bookstoreapp.csproj": {}
+    "E:\\bookstoreapp\\bookstoreapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus\\source\\repos\\bookstoreapp\\bookstoreapp.csproj": {
+    "E:\\bookstoreapp\\bookstoreapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\bookstoreapp.csproj",
+        "projectUniqueName": "E:\\bookstoreapp\\bookstoreapp.csproj",
         "projectName": "bookstoreapp",
-        "projectPath": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\bookstoreapp.csproj",
+        "projectPath": "E:\\bookstoreapp\\bookstoreapp.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\obj\\",
+        "outputPath": "E:\\bookstoreapp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

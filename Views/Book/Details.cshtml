@@ -41,9 +41,10 @@
                     <p class="card-text mb-4">@Model?.SelectedBook?.Description</p>
 
                     <div class="d-flex gap-3">
-                        <a asp-controller="Book" asp-action="Read" asp-route-id="@Model?.SelectedBook?.Id" class="btn btn-primary btn-lg px-4">
+                        <a href="@Url.Action("Read", "Book", new { id = Model?.SelectedBook?.Id })" class="btn btn-primary btn-lg px-4">
                             <i class="fa-solid fa-book"></i> Read Now
                         </a>
+
                         <button class="btn btn-outline-secondary btn-lg px-4">
                             <i class="fa-solid fa-cart-shopping"></i> Add to Cart
                         </button>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "j/rMdPR7L6aDNIIW9PnTTqX2fBtzXySes28OwuDEE0M=",
+  "Hash": "6sGFavDOm/InA7ZfAvChhn94wjrFaWPrFif8KtKcVmc=",
   "Source": "bookstoreapp",
   "BasePath": "_content/bookstoreapp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "bookstoreapp\\wwwroot",
       "Source": "bookstoreapp",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\bookstoreapp.styles.css",
+      "Identity": "E:\\bookstoreapp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\bookstoreapp.styles.css",
       "SourceId": "bookstoreapp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "E:\\bookstoreapp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "bookstoreapp#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "G53G5Yt24Ef/S5Hwzbv584sZeIo/6iBSyDP03jaNjCA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\bookstoreapp.styles.css"
+      "OriginalItemSpec": "E:\\bookstoreapp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\bookstoreapp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\bookstoreapp.bundle.scp.css",
+      "Identity": "E:\\bookstoreapp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\bookstoreapp.bundle.scp.css",
       "SourceId": "bookstoreapp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "E:\\bookstoreapp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "bookstoreapp#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "G53G5Yt24Ef/S5Hwzbv584sZeIo/6iBSyDP03jaNjCA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\bookstoreapp.bundle.scp.css"
+      "OriginalItemSpec": "E:\\bookstoreapp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\bookstoreapp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\css\\site.css",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\css\\site.css",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\favicon.ico",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\favicon.ico",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\js\\site.js",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\js\\site.js",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -353,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -437,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -458,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -479,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -500,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -521,10 +521,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -542,10 +542,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -563,10 +563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -584,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -605,10 +605,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -626,10 +626,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -647,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -668,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -689,10 +689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -710,10 +710,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -752,10 +752,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -773,10 +773,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -794,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -836,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -857,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -878,10 +878,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -899,10 +899,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -920,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -941,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -962,10 +962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -983,10 +983,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1004,10 +1004,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1025,10 +1025,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1046,10 +1046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -1067,10 +1067,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1109,10 +1109,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1130,10 +1130,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1151,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1172,10 +1172,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1193,10 +1193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1235,10 +1235,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -1256,10 +1256,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1277,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1298,10 +1298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1319,10 +1319,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\pdfs\\EF Interview Questions (1).pdf",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\pdfs\\EF Interview Questions (1).pdf",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "pdfs/EF Interview Questions (1)#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -1340,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\EF Interview Questions (1).pdf"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\uploads\\147e64ed-9d96-4f79-a218-7f20b6bfce54.pdf",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\uploads\\147e64ed-9d96-4f79-a218-7f20b6bfce54.pdf",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "uploads/147e64ed-9d96-4f79-a218-7f20b6bfce54#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -1361,10 +1361,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\147e64ed-9d96-4f79-a218-7f20b6bfce54.pdf"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\uploads\\35dba355-aa6b-424e-84f7-9bac2cca0464.jpg",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\uploads\\35dba355-aa6b-424e-84f7-9bac2cca0464.jpg",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "uploads/35dba355-aa6b-424e-84f7-9bac2cca0464#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1382,10 +1382,52 @@
       "OriginalItemSpec": "wwwroot\\uploads\\35dba355-aa6b-424e-84f7-9bac2cca0464.jpg"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\uploads\\c37d9c0f-0dae-4761-a3c5-21dd9674bf36.pdf",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\uploads\\61d8dafb-5c20-415c-af17-e08d132d846f.pdf",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
+      "BasePath": "_content/bookstoreapp",
+      "RelativePath": "uploads/61d8dafb-5c20-415c-af17-e08d132d846f#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8x86o7z9vt",
+      "Integrity": "rHboeAG585tdmv4PHgpci1iJSRpgGAhpdMTHfu7d5gI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\61d8dafb-5c20-415c-af17-e08d132d846f.pdf"
+    },
+    {
+      "Identity": "E:\\bookstoreapp\\wwwroot\\uploads\\709d1042-1cdc-49d5-bc25-b4a4bf52d080.jpg",
+      "SourceId": "bookstoreapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
+      "BasePath": "_content/bookstoreapp",
+      "RelativePath": "uploads/709d1042-1cdc-49d5-bc25-b4a4bf52d080#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xwh4e1020z",
+      "Integrity": "T9oCdeuvPpi8qFC034ZgJCcPkMVTTRhqL5hJzRJSFuY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\709d1042-1cdc-49d5-bc25-b4a4bf52d080.jpg"
+    },
+    {
+      "Identity": "E:\\bookstoreapp\\wwwroot\\uploads\\c37d9c0f-0dae-4761-a3c5-21dd9674bf36.pdf",
+      "SourceId": "bookstoreapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "uploads/c37d9c0f-0dae-4761-a3c5-21dd9674bf36#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -1403,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\c37d9c0f-0dae-4761-a3c5-21dd9674bf36.pdf"
     },
     {
-      "Identity": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\uploads\\c42866fc-322e-4eba-9147-18ffa85e2126.jpg",
+      "Identity": "E:\\bookstoreapp\\wwwroot\\uploads\\c42866fc-322e-4eba-9147-18ffa85e2126.jpg",
       "SourceId": "bookstoreapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\",
+      "ContentRoot": "E:\\bookstoreapp\\wwwroot\\",
       "BasePath": "_content/bookstoreapp",
       "RelativePath": "uploads/c42866fc-322e-4eba-9147-18ffa85e2126#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1427,7 +1469,7 @@
   "Endpoints": [
     {
       "Route": "bookstoreapp.58wnoam2vs.bundle.scp.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\bookstoreapp.bundle.scp.css",
+      "AssetFile": "E:\\bookstoreapp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\bookstoreapp.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1472,7 +1514,7 @@
     },
     {
       "Route": "bookstoreapp.58wnoam2vs.styles.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\bookstoreapp.styles.css",
+      "AssetFile": "E:\\bookstoreapp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\bookstoreapp.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1517,7 +1559,7 @@
     },
     {
       "Route": "bookstoreapp.bundle.scp.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\bookstoreapp.bundle.scp.css",
+      "AssetFile": "E:\\bookstoreapp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\bookstoreapp.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1554,7 +1596,7 @@
     },
     {
       "Route": "bookstoreapp.styles.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\bookstoreapp.styles.css",
+      "AssetFile": "E:\\bookstoreapp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\bookstoreapp.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1591,7 +1633,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\css\\site.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1628,7 +1670,7 @@
     },
     {
       "Route": "css/site.zveifn78u5.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\css\\site.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1673,7 +1715,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\favicon.ico",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1718,7 +1760,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\favicon.ico",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1755,7 +1797,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\js\\site.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1792,7 +1834,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\js\\site.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1837,7 +1879,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1874,7 +1916,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1919,7 +1961,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1956,7 +1998,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2001,7 +2043,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2038,7 +2080,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2083,7 +2125,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2120,7 +2162,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2165,7 +2207,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2202,7 +2244,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2247,7 +2289,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2284,7 +2326,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.9b9oa1qrmt.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2329,7 +2371,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2366,7 +2408,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2411,7 +2453,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2448,7 +2490,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ve6x09088i.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2493,7 +2535,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2538,7 +2580,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2575,7 +2617,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2612,7 +2654,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2657,7 +2699,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2694,7 +2736,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2739,7 +2781,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2776,7 +2818,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.unj9p35syc.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2821,7 +2863,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2858,7 +2900,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2903,7 +2945,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2940,7 +2982,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2977,7 +3019,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3014,7 +3056,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3059,7 +3101,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.n1oizzvkh6.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3104,7 +3146,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.q2ku51ktnl.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3149,7 +3191,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.7na4sro3qu.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3194,7 +3236,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3231,7 +3273,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3276,7 +3318,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3313,7 +3355,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3350,7 +3392,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3387,7 +3429,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3432,7 +3474,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.f8imaxxbri.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3477,7 +3519,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.0wve5yxp74.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3522,7 +3564,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3559,7 +3601,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3604,7 +3646,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3641,7 +3683,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3678,7 +3720,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3715,7 +3757,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3760,7 +3802,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.npxfuf8dg6.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3805,7 +3847,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3842,7 +3884,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3887,7 +3929,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3924,7 +3966,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.16095smhkz.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3969,7 +4011,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4006,7 +4048,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4043,7 +4085,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4088,7 +4130,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.b4skse8du6.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4133,7 +4175,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4170,7 +4212,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4215,7 +4257,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4252,7 +4294,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4289,7 +4331,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4334,7 +4376,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4371,7 +4413,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.u3xrusw2ol.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4416,7 +4458,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.tey0rigmnh.css",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4461,7 +4503,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4498,7 +4540,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4543,7 +4585,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4580,7 +4622,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.l2av4jpuoj.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4625,7 +4667,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.25iw1kog22.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4670,7 +4712,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4707,7 +4749,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4752,7 +4794,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4789,7 +4831,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4826,7 +4868,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4871,7 +4913,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4908,7 +4950,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.m39kt2b5c9.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4953,7 +4995,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4990,7 +5032,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5027,7 +5069,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5072,7 +5114,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.um2aeqy4ik.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5117,7 +5159,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5154,7 +5196,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5199,7 +5241,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5236,7 +5278,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5273,7 +5315,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5310,7 +5352,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5355,7 +5397,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.zwph15dxgs.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5400,7 +5442,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.o4kw7cc6tf.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5445,7 +5487,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5482,7 +5524,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5527,7 +5569,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.fwhahm2icz.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5572,7 +5614,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5609,7 +5651,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5654,7 +5696,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.dd6z7egasc.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5699,7 +5741,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5736,7 +5778,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5773,7 +5815,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5818,7 +5860,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5855,7 +5897,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5900,7 +5942,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5937,7 +5979,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5982,7 +6024,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6019,7 +6061,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6056,7 +6098,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.b7iojwaux1.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6101,7 +6143,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6138,7 +6180,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.pzqfkb6aqo.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6183,7 +6225,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6220,7 +6262,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6265,7 +6307,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.47otxtyo56.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6310,7 +6352,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6347,7 +6389,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6392,7 +6434,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6429,7 +6471,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6474,7 +6516,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6511,7 +6553,7 @@
     },
     {
       "Route": "pdfs/EF Interview Questions (1).pdf",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\pdfs\\EF Interview Questions (1).pdf",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\pdfs\\EF Interview Questions (1).pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6548,7 +6590,7 @@
     },
     {
       "Route": "pdfs/EF Interview Questions (1).srqee2hmfl.pdf",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\pdfs\\EF Interview Questions (1).pdf",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\pdfs\\EF Interview Questions (1).pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6593,7 +6635,7 @@
     },
     {
       "Route": "uploads/147e64ed-9d96-4f79-a218-7f20b6bfce54.0inyk5njrd.pdf",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\uploads\\147e64ed-9d96-4f79-a218-7f20b6bfce54.pdf",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\uploads\\147e64ed-9d96-4f79-a218-7f20b6bfce54.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6638,7 +6680,7 @@
     },
     {
       "Route": "uploads/147e64ed-9d96-4f79-a218-7f20b6bfce54.pdf",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\uploads\\147e64ed-9d96-4f79-a218-7f20b6bfce54.pdf",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\uploads\\147e64ed-9d96-4f79-a218-7f20b6bfce54.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6675,7 +6717,7 @@
     },
     {
       "Route": "uploads/35dba355-aa6b-424e-84f7-9bac2cca0464.jpg",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\uploads\\35dba355-aa6b-424e-84f7-9bac2cca0464.jpg",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\uploads\\35dba355-aa6b-424e-84f7-9bac2cca0464.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6712,7 +6754,7 @@
     },
     {
       "Route": "uploads/35dba355-aa6b-424e-84f7-9bac2cca0464.wn6r6qp7wv.jpg",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\uploads\\35dba355-aa6b-424e-84f7-9bac2cca0464.jpg",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\uploads\\35dba355-aa6b-424e-84f7-9bac2cca0464.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6756,8 +6798,172 @@
       ]
     },
     {
+      "Route": "uploads/61d8dafb-5c20-415c-af17-e08d132d846f.8x86o7z9vt.pdf",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\uploads\\61d8dafb-5c20-415c-af17-e08d132d846f.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2696268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rHboeAG585tdmv4PHgpci1iJSRpgGAhpdMTHfu7d5gI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 04:50:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8x86o7z9vt"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/61d8dafb-5c20-415c-af17-e08d132d846f.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rHboeAG585tdmv4PHgpci1iJSRpgGAhpdMTHfu7d5gI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/61d8dafb-5c20-415c-af17-e08d132d846f.pdf",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\uploads\\61d8dafb-5c20-415c-af17-e08d132d846f.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2696268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rHboeAG585tdmv4PHgpci1iJSRpgGAhpdMTHfu7d5gI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 04:50:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rHboeAG585tdmv4PHgpci1iJSRpgGAhpdMTHfu7d5gI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/709d1042-1cdc-49d5-bc25-b4a4bf52d080.jpg",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\uploads\\709d1042-1cdc-49d5-bc25-b4a4bf52d080.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19900"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T9oCdeuvPpi8qFC034ZgJCcPkMVTTRhqL5hJzRJSFuY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 04:50:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T9oCdeuvPpi8qFC034ZgJCcPkMVTTRhqL5hJzRJSFuY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/709d1042-1cdc-49d5-bc25-b4a4bf52d080.xwh4e1020z.jpg",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\uploads\\709d1042-1cdc-49d5-bc25-b4a4bf52d080.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19900"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T9oCdeuvPpi8qFC034ZgJCcPkMVTTRhqL5hJzRJSFuY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 04:50:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xwh4e1020z"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/709d1042-1cdc-49d5-bc25-b4a4bf52d080.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T9oCdeuvPpi8qFC034ZgJCcPkMVTTRhqL5hJzRJSFuY="
+        }
+      ]
+    },
+    {
       "Route": "uploads/c37d9c0f-0dae-4761-a3c5-21dd9674bf36.f0o5reoqyv.pdf",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\uploads\\c37d9c0f-0dae-4761-a3c5-21dd9674bf36.pdf",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\uploads\\c37d9c0f-0dae-4761-a3c5-21dd9674bf36.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6802,7 +7008,7 @@
     },
     {
       "Route": "uploads/c37d9c0f-0dae-4761-a3c5-21dd9674bf36.pdf",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\uploads\\c37d9c0f-0dae-4761-a3c5-21dd9674bf36.pdf",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\uploads\\c37d9c0f-0dae-4761-a3c5-21dd9674bf36.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6839,7 +7045,7 @@
     },
     {
       "Route": "uploads/c42866fc-322e-4eba-9147-18ffa85e2126.6if30vs4jw.jpg",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\uploads\\c42866fc-322e-4eba-9147-18ffa85e2126.jpg",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\uploads\\c42866fc-322e-4eba-9147-18ffa85e2126.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6884,7 +7090,7 @@
     },
     {
       "Route": "uploads/c42866fc-322e-4eba-9147-18ffa85e2126.jpg",
-      "AssetFile": "C:\\Users\\asus\\source\\repos\\bookstoreapp\\wwwroot\\uploads\\c42866fc-322e-4eba-9147-18ffa85e2126.jpg",
+      "AssetFile": "E:\\bookstoreapp\\wwwroot\\uploads\\c42866fc-322e-4eba-9147-18ffa85e2126.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {

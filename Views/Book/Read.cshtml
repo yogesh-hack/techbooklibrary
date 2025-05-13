@@ -5,6 +5,8 @@
 }
 
 <div class="read-container">
+
+    <a href="@Url.Action("Details", "Book", new { id = Model.Id })" class="btn btn-secondary">Back to Details</a>
     <h2>@Model.Title</h2>
     <h4>by @Model.Author</h4>
     <p><strong>Description:</strong> @Model.Description</p>
@@ -21,7 +23,6 @@
         <button id="next" class="flip-btn">Next</button>
     </div>
 
-    <a href="@Url.Action("Details", "Book", new { id = Model.Id })" class="btn btn-secondary">Back to Details</a>
 </div>
 
 <style>
@@ -127,11 +128,28 @@
     };
 
     // Initialize PDF viewer
-    pdfjsLib.getDocument('@Model.PdfUrl').promise.then(pdf => {
-        state.pdfDoc = pdf;
-        state.pageCount = pdf.numPages;
-        renderSpread();
-    });
+    pdfjsLib.getDocument('@Model.PdfUrl').promise
+        .then(pdf => {
+            state.pdfDoc = pdf;
+            state.pageCount = pdf.numPages;
+            renderSpread();
+        })
+        .catch(error => {
+            // Show fallback UI
+            const flipbook = document.getElementById('flipbook');
+            flipbook.innerHTML = `
+                <div style="text-align:center; padding: 100px; font-size: 24px; color: red;">
+                    <i class="fa-solid fa-triangle-exclamation"></i> PDF is not available.
+                </div>
+            `;
+
+            // Disable navigation buttons
+            document.getElementById('prev').disabled = true;
+            document.getElementById('next').disabled = true;
+
+            console.error("Error loading PDF:", error);
+        });
+
 
     // Render current spread
     async function renderSpread() {

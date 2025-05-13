@@ -1,0 +1,11 @@
+﻿services:
+  - type: web
+    name: bookstoreapp
+    runtime: docker
+    repo: https://github.com/yogesh-hack/techbooklibrary
+    branch: main
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+      - key: ConnectionStrings__DefaultConnection
+        value: Data Source=103.120.176.21;Integrated Security=False;Database=tridente_kamini;User ID=tridente_kamini;Password=kamini123

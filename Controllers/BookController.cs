@@ -35,8 +35,14 @@ namespace bookstoreapp.Controllers
 
         public IActionResult Read(int id)
         {
+            Console.WriteLine($"Read action called with id: {id}");
             var book = _context.Books.FirstOrDefault(b => b.Id == id);
-            if (book == null) return NotFound();
+            if (book == null)
+            {
+                Console.WriteLine("Book not found");
+                return NotFound();
+            }
+            Console.WriteLine($"Found book: {book.Title}");
             return View(book);
         }
 

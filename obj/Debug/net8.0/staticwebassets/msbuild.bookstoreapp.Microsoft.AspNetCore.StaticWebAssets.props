@@ -1152,6 +1152,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\35dba355-aa6b-424e-84f7-9bac2cca0464.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\61d8dafb-5c20-415c-af17-e08d132d846f.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>bookstoreapp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/bookstoreapp</BasePath>
+      <RelativePath>uploads/61d8dafb-5c20-415c-af17-e08d132d846f.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>8x86o7z9vt</Fingerprint>
+      <Integrity>rHboeAG585tdmv4PHgpci1iJSRpgGAhpdMTHfu7d5gI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\61d8dafb-5c20-415c-af17-e08d132d846f.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\709d1042-1cdc-49d5-bc25-b4a4bf52d080.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>bookstoreapp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/bookstoreapp</BasePath>
+      <RelativePath>uploads/709d1042-1cdc-49d5-bc25-b4a4bf52d080.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xwh4e1020z</Fingerprint>
+      <Integrity>T9oCdeuvPpi8qFC034ZgJCcPkMVTTRhqL5hJzRJSFuY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\709d1042-1cdc-49d5-bc25-b4a4bf52d080.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c37d9c0f-0dae-4761-a3c5-21dd9674bf36.pdf'))">
       <SourceType>Package</SourceType>
       <SourceId>bookstoreapp</SourceId>

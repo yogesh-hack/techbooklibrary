@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿services:
   - type: web
     name: bookstoreapp
@@ -9,16 +8,5 @@
       - key: ASPNETCORE_ENVIRONMENT
         value: Production
       - key: ConnectionStrings__DefaultConnection
-        value: Data Source=103.120.176.21;Integrated Security=False;Database=tridente_kamini;User ID=tridente_kamini;Password=kamini123
-=======
-services:
-  - type: web
-    name: techbooklibrary
-    repo: https://github.com/yogesh-hack/techbooklibrary
-    branch: main
-    buildCommand: dotnet publish -c Release -o out
-    startCommand: dotnet out/techbooklibrary.dll
-    envVars:
-      - key: ASPNETCORE_ENVIRONMENT
-        value: Production
->>>>>>> c6dfa2adbdc170e800ef0bf14304d97894998dea
+        value: connectoinstring..
+

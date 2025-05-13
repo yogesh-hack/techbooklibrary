@@ -19,9 +19,6 @@ namespace bookstoreapp.Models
             modelBuilder.Entity<Book>()
                 .Property(b => b.Price)
                 .HasColumnType("decimal(18,2)");
-
-            modelBuilder.Entity<Book>()
-               .ToTable("Books", t => t.HasTrigger("trg_AutoGenerateBookCode"));
         }
     }
 
